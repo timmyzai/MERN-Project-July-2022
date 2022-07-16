@@ -4,6 +4,21 @@ cd server
 npm init -y
 npm i body-parser cors express mongoose nodemon
 
-//nodemon is the tools for auto reset server
+//nodemon - auto reset server
 
--- push to Git --
+## push to Git ##
+
+cd client
+npm i axios moment react-file-base64 redux redux-thunk
+
+//axios -  request to an API end point
+//moment js - time and date
+//react-file-base64 - convert images
+//redux thunk -  (State Management Library) asynchronous action creator, middleware
+
+## going to setup mongo atlas ##
+- cloud provider AWS
+- cluster tier MO0 sandbox (512 MB)
+- mongodb 5.0
+
+
